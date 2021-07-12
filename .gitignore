@@ -1,32 +1,6 @@
-# Prerequisites
-*.d
+# In Juce Plugins, the folders Builds and JuceLibraryCode will be recreating their files
+# As soon as we modify sonething in the Plugin.
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# I want git to ignore Changes in the Following Directories:
+*/Builds
+*/JuceLibraryCode
